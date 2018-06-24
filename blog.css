@@ -1,0 +1,52 @@
+body
+{
+  background: url("images/image2.jpg");
+  background-attachment: fixed;
+  margin:auto;
+  text-align: center;
+}
+/* Welcome To anarchy part */
+h1
+{
+  text-align: center;
+  padding: 16px;
+  animation: animate 2s infinite;
+  margin: auto;
+}
+
+@keyframes animate {
+  0%{color:lightgreen;}
+  50%{color:lime;}
+  100%{color: green;}
+
+}
+/* ************************ ***************** */
+h2
+{
+  color:white;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin:auto;
+  padding: 16px;
+  text-decoration: underline red;
+
+}
+h4
+{
+  margin: auto;
+  color: rgba(180,120,170,1.5);
+  padding: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+p{
+  color:white;
+  padding: 40px;
+  margin: auto;
+  font-family: 'Poiret one', cursive;
+  color:white;
+  font-size: 1em;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+}
